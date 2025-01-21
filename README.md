@@ -2,7 +2,7 @@
 This project is a Python implementation of the classic Connect Four game, featuring a command-line interface, AI opponent, and error handling for robust gameplay. It provides an engaging experience for players while showcasing key programming concepts such as algorithms, object-oriented design, and testing. Below is a detailed description of its components and features.
 
 Key Features
-Command-Line Interface (CLI):
+Command-Line Interface:
 The game is played through a user-friendly CLI implemented in the UI class.
 Players can take turns with the AI by inputting their desired column for placing their token.
 The interface includes prompts for restarting the game or exiting after a match.
@@ -26,7 +26,7 @@ Comprehensive testing is implemented using Python's unittest framework.
 Tests validate core functionalities such as board updates, AI behavior, and game logic to ensure correctness and reliability.
 
 Object-Oriented Design:
-The program is modular, with separate classes for the board (Board), AI (AI), game logic (Game), and user interface (UI).
+The program is modular, with separate classes for the board, AI, game logic, and user interface.
 This structure promotes code reusability and scalability.
 
 How It Works
